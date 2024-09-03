@@ -29,8 +29,11 @@ function About() {
                             height: "300px", 
                             borderRadius: "50%", 
                             border: "2px solid #007bff", 
-                            boxShadow: "0 0 10px rgba(0,0,0,0.5)" 
+                            boxShadow: "0 0 10px rgba(0,0,0,0.5)", 
+                            cursor:'pointer'
                         }} 
+                        onMouseEnter={(e) => e.currentTarget.style.transform='scale(1.13)'}
+                        onMouseLeave={(e) => e.currentTarget.style.transform='scale(1)'}
                     />
                 </div>
                 <div className="about-text" style={{ 
@@ -45,7 +48,8 @@ function About() {
                     <p>My work is characterized by a commitment to high standards and attention to detail. I strive to stay ahead of industry trends by continuously learning new technologies and refining my skill set. Whether it's designing intuitive interfaces or developing robust backend systems, my goal is to deliver solutions that not only meet technical requirements but also provide exceptional user experiences.</p>
                 </div>
             </div>
-            <div className="social-media" style={{ marginTop: "40px", textAlign: "center" }}>
+            <div className="social-media" style={{ marginTop: "40px", textAlign: "center",cursor:'pointer' }}
+            >
                 <a 
                     href="https://www.linkedin.com/in/yourprofile" 
                     target="_blank" 

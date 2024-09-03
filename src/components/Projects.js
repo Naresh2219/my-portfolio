@@ -17,8 +17,13 @@ function Projects() {
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     flex: '1 1 calc(25% - 20px)',
-                    margin: '10px'
-                }}>
+                    margin: '10px',
+                    transition: 'transform 0.3s, box-shadow 0.3s',
+                    cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
                     <h3>Chat Application</h3>
                     <p>A real-time chat application built with Node.js and Socket.io. Users can join chat rooms and send messages in real time.</p>
                     <div className="project-details">
@@ -38,8 +43,12 @@ function Projects() {
                             marginTop: '10px',
                             color: '#007bff',
                             textDecoration: 'none',
-                            fontWeight: 'bold'
-                        }}>View on GitHub</a>
+                            fontWeight: 'bold',
+                            transition: 'color 0.3s',
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#0056b3'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#007bff'}
+                        >View on GitHub</a>
                     </div>
                 </div>
                 <div className="project-card" style={{
@@ -48,8 +57,13 @@ function Projects() {
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     flex: '1 1 calc(25% - 20px)',
-                    margin: '10px'
-                }}>
+                    margin: '10px',
+                    transition: 'transform 0.3s, box-shadow 0.3s',
+                    cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
                     <h3>Music Application</h3>
                     <p>A music player with features like play/pause, stop, and playlist management. Designed to resemble Spotify's interface.</p>
                     <div className="project-details">
@@ -69,8 +83,12 @@ function Projects() {
                             marginTop: '10px',
                             color: '#007bff',
                             textDecoration: 'none',
-                            fontWeight: 'bold'
-                        }}>View on GitHub</a>
+                            fontWeight: 'bold',
+                            transition: 'color 0.3s',
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#0056b3'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#007bff'}
+                        >View on GitHub</a>
                     </div>
                 </div>
                 <div className="project-card" style={{
@@ -79,8 +97,13 @@ function Projects() {
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     flex: '1 1 calc(25% - 20px)',
-                    margin: '10px'
-                }}>
+                    margin: '10px',
+                    transition: 'transform 0.3s, box-shadow 0.3s',
+                    cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
                     <h3>Weather Application</h3>
                     <p>A weather application that provides real-time weather updates and forecasts using the OpenWeather API.</p>
                     <div className="project-details">
@@ -100,8 +123,12 @@ function Projects() {
                             marginTop: '10px',
                             color: '#007bff',
                             textDecoration: 'none',
-                            fontWeight: 'bold'
-                        }}>View on GitHub</a>
+                            fontWeight: 'bold',
+                            transition: 'color 0.3s',
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#0056b3'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#007bff'}
+                        >View on GitHub</a>
                     </div>
                 </div>
                 <div className="project-card" style={{
@@ -110,8 +137,13 @@ function Projects() {
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     flex: '1 1 calc(25% - 20px)',
-                    margin: '10px'
-                }}>
+                    margin: '10px',
+                    transition: 'transform 0.3s, box-shadow 0.3s',
+                    cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
                     <h3>Timer Application</h3>
                     <p>A timer application that allows users to set countdowns, start, pause, and reset timers with a simple interface.</p>
                     <div className="project-details">
@@ -131,13 +163,16 @@ function Projects() {
                             marginTop: '10px',
                             color: '#007bff',
                             textDecoration: 'none',
-                            fontWeight: 'bold'
-                        }}>View on GitHub</a>
+                            fontWeight: 'bold',
+                            transition: 'color 0.3s',
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#0056b3'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#007bff'}
+                        >View on GitHub</a>
                     </div>
                 </div>
             </div>
         </section>
     );
 }
-
 export default Projects;

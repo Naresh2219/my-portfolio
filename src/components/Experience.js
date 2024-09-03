@@ -2,8 +2,8 @@ import React from 'react';
 
 function Experience() {
     return (
-        <section id="experience" style={{ padding: '30px', backgroundColor: '#f5f5f5' }}>
-            <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Experience</h2>
+        <section id="experience" style={{ padding: '30px', backgroundColor: '#e8f5e9' }}>
+            <h2 style={{ textAlign: 'center', marginBottom: '30px' }}>Experience</h2>
             <div className="experience-container" style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -12,7 +12,7 @@ function Experience() {
                 margin: '0 auto'
             }}>
                 <div className="experience-item" style={{
-                    backgroundColor: '#fff',
+                    backgroundColor: '#f9f7f6',
                     padding: '20px',
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
@@ -22,7 +22,7 @@ function Experience() {
                     <p><strong>Duration:</strong> 6 months (Internship)</p>
                 </div>
                 <div className="experience-item" style={{
-                    backgroundColor: '#fff',
+                    backgroundColor: '#f9f7f6',
                     padding: '20px',
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
@@ -32,7 +32,7 @@ function Experience() {
                     <p><strong>Duration:</strong> 3 months (Certification)</p>
                 </div>
                 <div className="experience-item" style={{
-                    backgroundColor: '#fff',
+                    backgroundColor: '#f9f7f6',
                     padding: '20px',
                     borderRadius: '8px',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
