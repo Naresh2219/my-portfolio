@@ -78,7 +78,7 @@ function Projects() {
                             <li><FaJs style={{ color: '#F7DF1E' }} title="JavaScript" /></li>
                             <li><FaCss3Alt style={{ color: '#1572B6' }} title="CSS" /></li>
                         </ul>
-                        <a href="https://github.com/Naresh2219/MusicApplication" target="_blank" rel="noopener noreferrer" style={{
+                        <a href="https://github.com/Naresh2219/music-application" target="_blank" rel="noopener noreferrer" style={{
                             display: 'inline-block',
                             marginTop: '10px',
                             color: '#007bff',
